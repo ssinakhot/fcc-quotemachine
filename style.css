@@ -1,0 +1,37 @@
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 48px;
+}
+.desc {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+.cmdbar {
+    margin-bottom: 25px;
+}
+.quote {
+    max-width:500px;
+    padding: 7px 7px 7px 7px;
+    background-color: lightblue
+}
+
+#author {
+    font-size: 16px;
+    font-style: italic;
+    text-align: right;
+}
+#quote {
+    font-size: 18px; 
+}
+pre {
+    margin-bottom: 0px;
+}
+
+.vertical-align {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
